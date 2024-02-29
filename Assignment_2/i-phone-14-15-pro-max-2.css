@@ -1,0 +1,507 @@
+.root-f-r-a-m-e-child {
+  height: 61px;
+  width: 394px;
+  position: relative;
+  background-color: var(--color-whitesmoke-100);
+  display: none;
+  max-width: 100%;
+}
+.google-maps-old,
+.line-width-icon {
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.line-width-icon {
+  height: 45px;
+  width: 58px;
+  min-height: 45px;
+}
+.google-maps-old {
+  align-self: stretch;
+  height: 43px;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.calendar-plus-map-frame {
+  width: 99px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-11xs);
+  box-sizing: border-box;
+}
+.share-icon {
+  height: 40px;
+  width: 55px;
+  position: relative;
+  object-fit: cover;
+  z-index: 1;
+}
+.root-f-r-a-m-e {
+  width: 394px;
+  background-color: var(--color-whitesmoke-100);
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-5xs) var(--padding-xl) var(--padding-5xs)
+    var(--padding-base);
+  box-sizing: border-box;
+  top: 0;
+  z-index: 99;
+  position: sticky;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.calendar-plus-icon,
+.entering-geo-fence,
+.remove-book-icon {
+  position: absolute;
+  margin: 0 !important;
+  object-fit: cover;
+  z-index: 1;
+}
+.entering-geo-fence {
+  height: 89px;
+  width: 56px;
+  top: -2px;
+  right: 119px;
+}
+.calendar-plus-icon,
+.remove-book-icon {
+  height: 90px;
+  width: 55px;
+  top: -3px;
+  left: 119px;
+  cursor: pointer;
+}
+.calendar-plus-icon {
+  height: 89px;
+  width: 58px;
+  top: -2px;
+  left: 21px;
+}
+.refund-status-text-child {
+  height: 140px;
+  width: 394px;
+  position: relative;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+  max-width: 100%;
+}
+.booking {
+  position: relative;
+  font-weight: 600;
+  z-index: 1;
+}
+.north-direction-rectangle {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-7xs) 0 0;
+}
+.cancellation,
+.itineraries {
+  position: relative;
+  font-weight: 600;
+}
+.cancellation {
+  flex: 1;
+  display: inline-block;
+  color: var(--color-blue-300);
+  min-width: 62px;
+  z-index: 1;
+}
+.itineraries {
+  z-index: 2;
+}
+.north-direction-rectangle1 {
+  flex: 0.875;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-2xs) 0 0;
+  box-sizing: border-box;
+  min-width: 57px;
+  color: var(--color-blue-300);
+}
+.tram-icon {
+  height: 90px;
+  width: 58px;
+  position: absolute;
+  margin: 0 !important;
+  top: -81px;
+  left: 1px;
+  object-fit: cover;
+  z-index: 1;
+}
+.track-bus {
+  position: relative;
+  font-weight: 600;
+  z-index: 2;
+}
+.get-on-bus-rectangle {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  position: relative;
+}
+.cancellation-text,
+.refund-status-text,
+.tram-rectangle {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.refund-status-text {
+  flex: 1;
+  border-radius: var(--br-7xl);
+  background-color: var(--color-gainsboro-100);
+  align-items: flex-end;
+  padding: var(--padding-15xl) var(--padding-5xs) var(--padding-15xl)
+    var(--padding-base);
+  box-sizing: border-box;
+  gap: 0 14px;
+  min-height: 140px;
+}
+.cancellation-text,
+.tram-rectangle {
+  align-items: flex-start;
+}
+.tram-rectangle {
+  flex: 1;
+  position: relative;
+}
+.cancellation-text {
+  align-self: stretch;
+  padding: 0 0 var(--padding-7xs) var(--padding-lg);
+  box-sizing: border-box;
+}
+.transaction-icon {
+  height: 46px;
+  width: 62px;
+  position: relative;
+  object-fit: cover;
+}
+.refund-status {
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+.transaction-rect {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 1px;
+}
+.north-direction-icon {
+  height: 46px;
+  width: 46px;
+  position: relative;
+  object-fit: cover;
+}
+.track-ticket {
+  position: relative;
+  font-weight: 600;
+  color: var(--color-blue-200);
+}
+.frame-map-icon {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 18px;
+  max-width: 100%;
+}
+.cinema-ticket-icon {
+  height: 35px;
+  width: 56px;
+  position: relative;
+  object-fit: cover;
+}
+.reschedule {
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cinema-ticket-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 6px;
+}
+.table-properties-icon {
+  height: 39px;
+  width: 48px;
+  position: relative;
+  object-fit: cover;
+}
+.time-table {
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+.cancellation-button {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-9xs) 0 0;
+}
+.frame-nearby-places,
+.gsrtc-logo-frame,
+.time-table-label {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.time-table-label {
+  align-items: flex-start;
+  gap: 0 20px;
+}
+.frame-nearby-places,
+.gsrtc-logo-frame {
+  max-width: 100%;
+}
+.frame-nearby-places {
+  align-items: flex-end;
+  gap: 0 30px;
+}
+.gsrtc-logo-frame {
+  align-items: flex-start;
+  padding: 0 var(--padding-7xs);
+  box-sizing: border-box;
+}
+.love-path-icon {
+  height: 43px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+}
+.span {
+  color: var(--color-white);
+}
+.nearby {
+  position: relative;
+  font-weight: 600;
+}
+.current-status-text,
+.nearby-places-label {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.current-status-text {
+  flex-direction: column;
+  padding: var(--padding-6xs) 0 0;
+}
+.nearby-places-label {
+  flex-direction: row;
+  gap: 0 4px;
+}
+.electric-vehicle-icon {
+  height: 47px;
+  width: 52px;
+  position: relative;
+  object-fit: cover;
+}
+.current-status {
+  position: relative;
+  font-weight: 600;
+}
+.current-status-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: var(--padding-6xs) 0 0;
+}
+.current-status-frame,
+.gas-vehicle-frame,
+.nearby-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.gas-vehicle-frame {
+  flex-direction: row;
+  align-items: center;
+  gap: 0 12px;
+}
+.nearby-frame {
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 0 0 var(--padding-11xs);
+}
+.frame-love-path {
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-between;
+  max-width: 100%;
+  gap: var(--gap-xl);
+}
+.booking-frame-itineraries,
+.nearby-text {
+  align-self: stretch;
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.booking-frame-itineraries {
+  flex-direction: row;
+  padding: 0 0 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.nearby-text {
+  flex-direction: column;
+  gap: 24px 0;
+}
+.get-on-bus {
+  height: 37px;
+  width: 63px;
+  position: relative;
+  object-fit: cover;
+}
+.bus-pass {
+  position: relative;
+  font-weight: 600;
+}
+.get-on-bus-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 7px;
+}
+.bus-icon {
+  height: 48px;
+  width: 43px;
+  position: relative;
+  object-fit: cover;
+}
+.view-ticket {
+  position: relative;
+  font-weight: 600;
+  cursor: pointer;
+}
+.track-bus-text {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 0 var(--padding-9xs);
+}
+.bus-frame,
+.frame-parent {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+  gap: 0 20px;
+}
+.frame-parent {
+  align-items: flex-end;
+  gap: 0 52px;
+  max-width: 100%;
+}
+.gsrtc-rectangle {
+  flex-direction: row;
+  padding: 0 var(--padding-8xs);
+  box-sizing: border-box;
+}
+.framei-phone-pro-max,
+.gsrtc-rectangle,
+.love-path-rectangle,
+.view-ticket-text {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  max-width: 100%;
+}
+.love-path-rectangle {
+  flex: 1;
+  flex-direction: column;
+  gap: 31px 0;
+}
+.framei-phone-pro-max,
+.view-ticket-text {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0 var(--padding-lgi) 0 0;
+  box-sizing: border-box;
+  font-size: var(--font-size-lg);
+  color: var(--color-blue-100);
+}
+.framei-phone-pro-max {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: 0 var(--padding-mini) 0 0;
+  gap: 44px 0;
+  text-align: left;
+  font-size: var(--font-size-base);
+  color: var(--color-blue-400);
+  font-family: var(--font-inter);
+}
+.gsrtc-2-1 {
+  margin-bottom: -2px;
+  height: 261px;
+  flex: 1;
+  position: relative;
+  border-radius: var(--br-xl);
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.cinema-ticket-rectangle,
+.home-page {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+  box-sizing: border-box;
+}
+.cinema-ticket-rectangle {
+  align-self: stretch;
+  flex-direction: row;
+  padding: 0;
+  max-width: 100%;
+}
+.home-page {
+  width: 100%;
+  position: relative;
+  background: linear-gradient(180deg, #137fff, #88a4b8);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+  flex-direction: column;
+  padding: 78px 0 0;
+  gap: 35px 0;
+  letter-spacing: normal;
+}
+@media screen and (max-width: 450px) {
+  .cancellation,
+  .north-direction-rectangle1 {
+    flex: 1;
+  }
+  .frame-love-path,
+  .frame-map-icon,
+  .frame-nearby-places,
+  .frame-parent,
+  .refund-status-text {
+    flex-wrap: wrap;
+  }
+  .frame-parent {
+    gap: 0 52px;
+  }
+  .love-path-rectangle {
+    gap: 31px 0;
+  }
+}

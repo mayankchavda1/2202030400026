@@ -1,0 +1,200 @@
+.gsrtc-1-icon {
+  height: 189px;
+  width: 192px;
+  position: relative;
+  object-fit: cover;
+}
+.gsrtc-box {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-4xl) 0 var(--padding-base);
+}
+.welcome-to-gsrtc {
+  position: relative;
+}
+.gsrtc-box-parent,
+.parent-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.gsrtc-box-parent {
+  flex-direction: column;
+  align-items: center;
+  gap: 68px 0;
+}
+.parent-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 0 86px var(--padding-11xs);
+}
+.english-frame-child {
+  height: 77px;
+  width: 292px;
+  position: relative;
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+  display: none;
+}
+.gujarati {
+  height: 45px;
+  flex: 1;
+  position: relative;
+  display: inline-block;
+  z-index: 1;
+}
+.english-frame,
+.english-frame-item {
+  border-radius: var(--br-xl);
+  background-color: var(--color-gainsboro-100);
+}
+.english-frame {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-end;
+  padding: var(--padding-base) 0 var(--padding-base) var(--padding-15xl);
+}
+.english-frame-item {
+  height: 74px;
+  width: 292px;
+  position: relative;
+  display: none;
+}
+.english- {
+  position: relative;
+  font-size: var(--font-size-6xl);
+  font-family: var(--font-inter);
+  color: var(--color-blue-100);
+  text-align: left;
+  cursor: pointer;
+  z-index: 1;
+}
+.english-frame1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xl) 62px var(--padding-3xl) var(--padding-29xl);
+  background-color: var(--color-gainsboro-100);
+  border-radius: var(--br-xl);
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+.english-frame1:hover {
+  background-color: var(--color-silver-100);
+}
+.gujarati-frame,
+.gujarati-frame-wrapper {
+  display: flex;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.gujarati-frame {
+  flex: 1;
+  flex-direction: column;
+  gap: 53px 0;
+}
+.gujarati-frame-wrapper {
+  width: 300px;
+  flex-direction: row;
+  padding: 0 var(--padding-9xs);
+  box-sizing: border-box;
+}
+.steering-miles-with {
+  position: relative;
+  font-size: var(--font-size-5xl);
+  font-weight: 600;
+  color: #f2be08;
+}
+.image-frame,
+.main-frame {
+  display: flex;
+  justify-content: flex-start;
+}
+.image-frame {
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 48px 0;
+}
+.main-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-mini) 0 0;
+  box-sizing: border-box;
+  max-width: 100%;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-blue-200);
+  font-family: var(--font-inter);
+}
+.image-gsrtc-1 {
+  height: 197px;
+  flex: 1;
+  position: relative;
+  border-radius: 24px;
+  max-width: 100%;
+  overflow: hidden;
+  object-fit: cover;
+}
+.image-gsrtc-1-wrapper {
+  margin-bottom: -2px;
+  width: 428px;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0;
+  max-width: 100%;
+}
+.background-frame,
+.first-page,
+.image-gsrtc-1-wrapper {
+  display: flex;
+  box-sizing: border-box;
+}
+.background-frame {
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0;
+  max-width: 100%;
+}
+.first-page {
+  position: relative;
+  background: linear-gradient(180deg, #3d88f8, #7aa4b7);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  width: 100%;
+  overflow: hidden;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 81px 0 0;
+  letter-spacing: normal;
+  text-align: left;
+  font-size: var(--font-size-6xl);
+  color: var(--color-white);
+  font-family: var(--font-inter);
+}
+@media screen and (max-width: 450px) {
+  .parent-frame {
+    padding-bottom: 56px;
+    box-sizing: border-box;
+    max-width: calc(100% - 2px);
+  }
+  .english-frame1 {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+  .gujarati-frame {
+    gap: 53px 0;
+  }
+  .image-frame {
+    gap: 48px 0;
+  }
+  .main-frame {
+    max-width: calc(100% - 15px);
+  }
+}
